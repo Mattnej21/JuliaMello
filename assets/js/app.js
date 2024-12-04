@@ -10,7 +10,7 @@ document.body.appendChild(script);
 
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-<a class="navbar-brand" href="index.html">Julia Ogando De Mello </a>
+<a class="navbar-brand" href="index.html">Matt Nejedlo </a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
   <div id="js-hamburger" class="hamburger">
@@ -27,9 +27,10 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>\
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="reference.html">References</a></li>
    <li class="nav-item nav-item-hover">
   <li class="nav-item nav-item-hover">
-  <a class="nav-link" href="assets/docs/Resume - Julia Mello.pdf" download="assets/docs/Resume - Julia Mello.pdf">Resumé/CV <img src="assets/images/download_icon_143099.png" alt="Resume Download Icon" width="15" height="15"> </a></li>
+  <a class="nav-link" href="assets/docs/Matthew_NejedloAlpha.pdf" download="assets/docs/Matthew_NejedloAlpha.pdf">Resumé/CV <img src="assets/images/download_icon_143099.png" alt="Resume Download Icon" width="15" height="15"> </a></li>
 
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
@@ -440,5 +441,3 @@ $(window).on("load", function () {
 });
 
 //send button animation
-
-
